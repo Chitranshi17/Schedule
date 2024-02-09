@@ -1,0 +1,98 @@
+*{
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+.main-container{
+  width: 100%;
+  height: 99.9vh;
+  background: #9796f0;/* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+}
+.mid-container{
+  width: 100%;
+  height: 100vh;
+}
+.nav-bg{
+  background: rgb(81, 21, 81);
+}
+.form{
+  width: 100%;
+  height: 30rem;
+  background-color: transparent;
+  border: none;
+}
+.todoContainer{
+  width: 100%;
+  height: 100%;
+}
+.parent-list-group{
+  width: 100%;
+  height: 30rem;
+  overflow: hidden;
+}
+.list-group{
+  width: 102%;
+  
+  height: 100%;
+  margin-top: 2rem;
+  overflow-y: scroll;
+}
+.listItem{
+  width: 100%;
+  height: 8rem;
+  background: #8584e7;/* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fbc7d4, #8483d7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #be7386, #4d4c97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0rem 0rem .5rem #050442;
+  margin: .2rem;
+}
+.btn-design{
+  width: 10%;
+}
+.weather-show{
+  width: 100%;
+  height: 60%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather{
+  width: 80%;
+  height: 70%;
+  background-color: white;
+}
+.weather-data{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+@media (max-width:768px) {
+  html{
+    font-size: 40%;
+  }
+  .btn-design{
+    width: 15%;
+  }
+  .parent-list-group{
+    height: 69rem;
+  }
+  .list-group{
+    width: 105%;
+  }
+}
