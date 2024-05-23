@@ -22,7 +22,8 @@ import MailIcon from "@mui/icons-material/Mail";
 import CloudIcon from "@mui/icons-material/Cloud";
 import WatchLaterSharpIcon from "@mui/icons-material/WatchLaterSharp";
 import CalendarMonthSharpIcon from "@mui/icons-material/CalendarMonthSharp";
-import { Container } from "@mui/material";
+import { Container, Switch } from "@mui/material";
+import { Label } from "@mui/icons-material";
 
 const drawerWidth = 240;
 
@@ -123,6 +124,7 @@ export default function LeftNav() {
           <Typography variant="h4" noWrap component="div">
             TodoGenius
           </Typography>
+         
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open}>
