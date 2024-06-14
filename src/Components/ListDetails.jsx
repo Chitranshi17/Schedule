@@ -24,10 +24,10 @@ const ListDetails = ({todo}) => {
 
   return (
     <>
-      <ListItem className="listItem">
-        <Box sx={{ flexGrow: "1" }} className="d-flex align-items-start justify-content-around flex-column">
-          <Typography variant="h5" color={"white"}>Title : {todo.title}</Typography>
-          <Typography variant="h6" color={"white"}>Description : {todo.description}</Typography>
+      <ListItem className="listItem rounded-0">
+        <Box sx={{ flexGrow: "1" }} className="d-flex align-items-start justify-content-around flex-column rounded-0">
+          <Typography variant="h3" color={"white"} sx={{fontSize : "2.2rem", fontWeight :"bold"}}>Title : {todo.title}</Typography>
+          <Typography variant="h4" color={"white"} sx={{fontSize : "1.8rem"}}>Description : {todo.description}</Typography>
         </Box>
         <Box className="d-flex align-items-center justify-content-around btn-design">
           <Fab color="secondary" aria-label="edit" sx={{width:'4rem', height:'4rem'}}
