@@ -84,10 +84,10 @@ html{
 
 @media (max-width:768px) {
   html{
-    font-size: 40%;
+    font-size: 50%;
   }
   .btn-design{
-    width: 15%;
+    width: 20%;
   }
   .parent-list-group{
     height: 69rem;

@@ -109,7 +109,7 @@ export default function LeftNav() {
       <CssBaseline />
       <AppBar position="fixed" open={open} color="secondary"> 
         <Toolbar>
-          <IconButton
+          {/* <IconButton
             color="inherit"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
@@ -120,14 +120,14 @@ export default function LeftNav() {
             }}
           >
             <MenuIcon fontSize="large" />
-          </IconButton>
+          </IconButton> */}
           <Typography variant="h4" noWrap component="div">
             TodoGenius
           </Typography>
          
         </Toolbar>
       </AppBar>
-      <Drawer variant="permanent" open={open}>
+      {/* <Drawer variant="permanent" open={open}>
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "rtl" ? (
@@ -204,19 +204,7 @@ export default function LeftNav() {
             </ListItem>
           ))}
         </List>
-
-{/* 
-        <div className="weather-show">
-          <div className="weather">
-              <div className="weather-data">
-                  <h1 className="display-2">26° C</h1>                 <div className="city">
-                  <h2 className="display-3">Indore</h2>
-                 </div>
-              </div>
-          </div>
-        </div> */}
-
-      </Drawer>
+      </Drawer> */}
       <Container component="main" sx={{ flexGrow: 1, p: 3 }} className="todoContainer">
         <DrawerHeader />
         <MainContent />
